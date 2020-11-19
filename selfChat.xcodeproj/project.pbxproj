@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		4E0904752566120400F68F0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0904742566120400F68F0C /* AppDelegate.swift */; };
 		4E0904772566120400F68F0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0904762566120400F68F0C /* SceneDelegate.swift */; };
-		4E0904792566120400F68F0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0904782566120400F68F0C /* ViewController.swift */; };
+		4E0904792566120400F68F0C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0904782566120400F68F0C /* FirstViewController.swift */; };
 		4E09047C2566120400F68F0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E09047A2566120400F68F0C /* Main.storyboard */; };
 		4E09047E2566120500F68F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E09047D2566120500F68F0C /* Assets.xcassets */; };
 		4E0904812566120500F68F0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E09047F2566120500F68F0C /* LaunchScreen.storyboard */; };
+		4E0904892566135900F68F0C /* snapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0904882566135900F68F0C /* snapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4E0904712566120400F68F0C /* selfChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selfChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E0904742566120400F68F0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E0904762566120400F68F0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4E0904782566120400F68F0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E0904782566120400F68F0C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		4E09047B2566120400F68F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E09047D2566120500F68F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E0904802566120500F68F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E0904822566120500F68F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E0904882566135900F68F0C /* snapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				4E0904742566120400F68F0C /* AppDelegate.swift */,
 				4E0904762566120400F68F0C /* SceneDelegate.swift */,
-				4E0904782566120400F68F0C /* ViewController.swift */,
 				4E09047A2566120400F68F0C /* Main.storyboard */,
 				4E09047D2566120500F68F0C /* Assets.xcassets */,
 				4E09047F2566120500F68F0C /* LaunchScreen.storyboard */,
 				4E0904822566120500F68F0C /* Info.plist */,
+				4E0904782566120400F68F0C /* FirstViewController.swift */,
+				4E0904882566135900F68F0C /* snapViewController.swift */,
 			);
 			path = selfChat;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E0904792566120400F68F0C /* ViewController.swift in Sources */,
+				4E0904892566135900F68F0C /* snapViewController.swift in Sources */,
+				4E0904792566120400F68F0C /* FirstViewController.swift in Sources */,
 				4E0904752566120400F68F0C /* AppDelegate.swift in Sources */,
 				4E0904772566120400F68F0C /* SceneDelegate.swift in Sources */,
 			);
